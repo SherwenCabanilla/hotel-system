@@ -1,0 +1,18 @@
+.home,
+.about,
+.members,
+.benefits,
+.service {
+  border-radius: 10px;
+}
+
+.home:hover,
+.about:hover,
+.members:hover,
+.benefits:hover,
+.service:hover {
+  transition: 10ms ease;
+ background-color: #888989;
+}
+
+

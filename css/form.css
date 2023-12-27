@@ -1,0 +1,12 @@
+body{
+    background: #4F4F4F;
+}
+.info{
+    border-radius: 13px;
+    background: #4F4F4F;
+    box-shadow:  5px 5px 10px #202020,
+                 -5px -5px 10px #7e7e7e;
+}
+.ds{
+    background-color: #d37474;
+}

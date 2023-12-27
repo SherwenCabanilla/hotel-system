@@ -1,0 +1,45 @@
+body{
+  background: #4F4F4F;
+}
+#roomTableContainer {
+  height: 330px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background: linear-gradient(145deg, #423f3f, #656060);
+  box-shadow:  5px 5px 10px #2d2b2b,
+               -5px -5px 10px #4b4747;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+
+}
+#roomTableContainer::-webkit-scrollbar {
+  display: none;
+}
+.a{
+  border-radius: 13px;
+  background: #4F4F4F;
+  box-shadow:  5px 5px 10px #202020,
+               -5px -5px 10px #7e7e7e;
+}
+
+.b{
+  width: 170px;
+  height: 100px;
+}
